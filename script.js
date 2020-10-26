@@ -67,7 +67,7 @@ function about() {
 }
 
 function interact() {
-  titleEle.innerHTML = "Interact";
+  titleEle.innerHTML = "";
   nameEle.innerHTML = "";
   increaseCounterButton.style.visibility = "visible";
   counterEle.innerHTML = "Counter: " + counter;
